@@ -202,3 +202,8 @@ h1 {
     min-height: auto;
     padding: 10% 10%;
 }
+
+.servicio-img {
+    width: 60%;
+    height: 60%;
+}
