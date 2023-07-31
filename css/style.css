@@ -4,6 +4,10 @@
 	font-family: 'Roboto';
 }
 
+a {
+    text-decoration: none;
+}
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -19,6 +23,7 @@ li a {
     padding: 2rem;
     margin: 1rem;
 }
+
 
 .imgbody {
     top: 15%;
@@ -73,14 +78,6 @@ li a {
     max-width: 5%;
     max-height: 5%;
     margin: 5px;
-}
-
-.foto-footer{
-    max-width: 20%;
-    max-height: 20%;
-    position: absolute;
-    top: 75%;
-    left: 40%;
 }
 
 .quienes1{
@@ -192,6 +189,8 @@ h1 {
     font-family: "Roboto";
     line-height: 170%;
     padding: 5%;
+    top: 5%;
+    left: 5%;
 }
 
 .id1 div {
@@ -204,6 +203,79 @@ h1 {
 }
 
 .servicio-img {
-    width: 60%;
-    height: 60%;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 30%;
+}
+
+.carousel-caption.d-none.d-md-block h5 {
+    color: #39b54a;
+}
+
+p {
+    color: #333;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+.iconserv {
+    width: 60px;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    left: 8%;
+}
+
+.h1serv {
+    text-shadow: 1px 1px 20px #fff;
+    text-align: left;
+    color: #39b54a;
+    font-size: 2em;
+    font-family: "Raleway";
+    font-weight: 400;
+    margin-bottom: 0%;
+    padding: 3% 1%;
+    position: relative;
+    display: inline;
+    top: -25px;
+    left: 40%;
+}
+
+.footer {
+    background-color: #39b54a;
+    position: absolute;
+    top: 100%;
+}
+
+.foto-footer img {
+    max-width: 15%;
+    background-color: #333;
+}
+
+.foto-footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    margin: 1rem;
+    list-style: none;
+}
+
+.carousel-control-prev span {
+    background-color: #39b54a;
+}
+
+.carousel-control-next span {
+    background-color: #39b54a;
+}
+
+.info-footer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 1fr;
+    margin: 1rem;
 }
