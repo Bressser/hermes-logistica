@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto';
+}
+a {
+    text-decoration: none;
+}
+
+.imgbody {
+    top: 20%;
+    left: 25%;
+    position: absolute;
+    max-width: 75%;
+    width: 50%;
+    min-width: 50%;
+    z-index: 999;
+}
+
+.carousel-control-prev span {
+    background-color: #39b54a;
+}
+
+.carousel-control-next span {
+    background-color: #39b54a;
+}
+
+.carousel-caption.d-none.d-md-block h5 {
+    color: #39b54a;
+}
+
+.form-registro {
+    position: absolute;
+    top: 130%;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #39b54a;
+    border-radius: 3%;
+}
+
+.servicio-img {
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+

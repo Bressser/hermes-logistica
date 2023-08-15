@@ -7,89 +7,180 @@
     <link rel="shortcut icon" href="./img/logo.png">
     <title>Hermes - Soluciones Logisticas</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
+    <meta name="description" content="Somos un grupo de profesionales comprometidos, siendo nuestro objetivo principal la solución a sus problemas logísticos. Situados en zona norte.">
+    <meta name="keywords" content="flete, logistica, camiones, mudanza, zona norte, seguro">
+  </head>
+
+<body> 
 
 <header> 
-    <nav>
-        <ul>
-            <li>
-                <a href="./index.html">Inicio</a>
-            </li>
-
-            <li>
-                <a href="./pages/servicios.html">Servicios</a>
-            </li>
-
-            <li>
-                <a href="./pages/quienes-somos.html">Quienes Somos?</a>
-            </li>
-
-            <li>
-                <a href="./pages/clientes.html">Clientes</a>
-            </li>
-        
-            <li>
-                <a href="./pages/modos-de-pago.html">Modos de Pago</a>
-            </li>
-
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hermes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/quienes-somos.html">Quienes Somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/modos-de-pago.html">Modos de Pago</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>
 
 <main> 
-    <section>
     <img class="imgbody" src="./img/LogoMAIN.jpg" alt="LogoMAIN"> 
-        <div class="redes-main"> 
 
-            <ul class="info-main">
-                <li> 
-                    <a><img class="fotomail" src="./img/fotomail.png" alt="LogoMail">info@logisticahermes.com.ar</a>
-                </li>
-
-                <li> 
-                    <a href="https://goo.gl/maps/axWfHvJSYEPot74f9" target="_blank"><img class="fotoubi" src="./img/fotoubi.png" alt="Logoubi"> Thames 1055, Boulogne Sur Mer - San Isidro - GBA norte</a>
-                </li>
-
-                <li> 
-                    <a href="https://wa.link/cph3t6" target="_blank"> <img class="fototel" src="./img/fototel.png" alt="Logotel"> +54 9 11 2706-7779</a>
-                </li>
-            </ul>
+    <section class="servicio-img" data-aos="fade-right"> 
+        <img class="iconserv" src="./img/iconseccion-03.png" alt="Servicios">
+        <h1 class="h1serv">Nuestros Servicios</h1>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/producto-1.jpg" class="d-block w-100" alt="Miniflete">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medidas de caja de carga</h5>
+              <p>Largo 1,65m; ancho 1,1m; alto 1,15m.
+                Carga MAX: 650kg
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/producto-2.jpg" class="d-block w-100" alt="Flete-Chico">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medidas de caja de carga</h5>
+              <p>Largo 2,6m; ancho 1,6m; alto 1,6m
+                Carga MAX: 1500kg
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/producto-4.jpg" class="d-block w-100" alt="Flete-Grande">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Medidas de caja de carga</h5>
+              <p>Largo 4,5m; ancho 2,3m; alto 2,1m
+                Carga MAX: 3000kg
+            </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+<section class="form-registro" data-aos="flip-up">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Numero de telefono</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Tipo de carga</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Dirrecion de partida</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Thames 1055">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Dirreccion de llegada</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, estudio, o calle">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Estado</label>
+      <select id="inputState" class="form-select">
+        <option selected>Seleciona...</option>
+        <option>Buenos Aires</option>
+        <option>Entre Rios</option>
+        <option>Cordoba</option>
+        <option>Santa Fe</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Codigo Postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Calcula mi flete!
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+</section>
+
 </main>
 
 <footer class="footer"> 
-
         <div class="foto-footer"> 
             <nav>
-                <li><a href="#">Instagram</a></li>
-                <i class="bi bi-instagram"></i>
+                <li><i class="bi bi-instagram"></i><a href="#">Instagram</a></li>
             </nav>
-            <div> 
                 <img src="./img/LogoVertical.png" alt="fotofooter">
-            </div>
             <nav>
-                <li><a href="#">Linkedin</a></li>
-                <i class="bi bi-linkedin"></i>
+                <li><i class="bi bi-linkedin"></i><a href="#">Linkedin</a></li>
             </nav>
         </div>
-
         <div>
             <ul class="info-footer">
                 <li> 
-                    <a><img class="fotomail" src="./img/fotomail.png" alt="LogoMail">info@logisticahermes.com.ar</a>
+                  <img class="fotomail" src="./img/fotomail.png" alt="LogoMail"><a href="#">info@logisticahermes.com.ar</a>
                 </li>
                 <li> 
-                   <a href="https://goo.gl/maps/axWfHvJSYEPot74f9" target="_blank"><img class="fotoubi" src="./img/fotoubi.png" alt="Logoubi"> Thames 1055, Boulogne Sur Mer - San Isidro - GBA norte</a>
+                  <img class="fotoubi" src="./img/fotoubi.png" alt="Logoubi"><a href="https://goo.gl/maps/axWfHvJSYEPot74f9" target="_blank"> Thames 1055, Boulogne Sur Mer - San Isidro - GBA norte</a>
                 </li>
                 <li> 
-                <a href="https://wa.link/cph3t6" target="_blank"> <img class="fototel" src="./img/fototel.png" alt="Logotel"> +54 9 11 2706-7779</a>
+                  <img class="fototel" src="./img/fototel.png" alt="Logotel"><a href="https://wa.link/cph3t6" target="_blank">+54 9 11 2706-7779</a>
                 </li>
             </ul>
         </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
 
 </html>

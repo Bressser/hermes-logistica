@@ -7,30 +7,43 @@
     <link rel="shortcut icon" href="../img/logo.png">
     <title>Hermes - Quienes Somos</title>
     <link rel="stylesheet" href="../css/style.css">
-</head>
+    <link rel="stylesheet" href="../scss/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 
-<header>
+<body> 
 
-    <nav>
-        <ul> 
-            <li>
-                <a href="../index.html">Inicio</a>
-            </li>
-            <li>
-                <a href="./servicios.html">Servicios</a>
-            </li>
-            <li>
-                <a href="./quienes-somos.html">Quienes Somos?</a>
-            </li>
-            <li>
-                <a href="./clientes.html">Clientes</a>
-            </li>
-            <li>
-                <a href="./modos-de-pago.html">Modos de Pago</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<header> 
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Hermes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienes-somos.html">Quienes Somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./modos-de-pago.html">Modos de Pago</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
 
 <main>
     <section class="quienes1">
@@ -43,6 +56,7 @@
                 de sus pedidos y exceder 
                 sus expectativas, brindando soluciones de logística integral y ajustando nuestros servicios de acuerdo a sus requerimientos específicos, ofreciendo la mejor relación costo-beneficio en el área del transporte de cargas.
             </p>
+            <iframe class="iframesomos" width="560" height="315" src="https://www.youtube.com/embed/4qDOnB9bWzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="id2">
             <img class="icon-id" src="../img/iconubi.png" alt="imgubicacion">
@@ -51,5 +65,37 @@
         </div>
     </section>
 </main>
+
+  <footer class="footer3"> 
+    <div class="foto-footer"> 
+      <nav>
+          <li><i class="bi bi-instagram"></i><a href="#">Instagram</a></li>
+      </nav>
+          <img src="../img/LogoVertical.png" alt="fotofooter">
+      <nav>
+          <li><i class="bi bi-linkedin"></i><a href="#">Linkedin</a></li>
+      </nav>
+    </div>
+    <div>
+      <ul class="info-footer">
+          <li> 
+            <img class="fotomail" src="../img/fotomail.png" alt="LogoMail"><a href="#">info@logisticahermes.com.ar</a>
+          </li>
+          <li> 
+            <img class="fotoubi" src="../img/fotoubi.png" alt="Logoubi"> <a href="https://goo.gl/maps/axWfHvJSYEPot74f9" target="_blank">Thames 1055, Boulogne Sur Mer - San Isidro - GBA norte</a>
+          </li>
+          <li> 
+            <img class="fototel" src="../img/fototel.png" alt="Logotel"><a href="https://wa.link/cph3t6" target="_blank">+54 9 11 2706-7779</a>
+          </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 
 </html>
