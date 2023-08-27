@@ -97,6 +97,14 @@
         top: 50%;
     }
 
+    .servicio-img2 {
+        width: 35%;
+        height: 35%;
+        position: absolute;
+        left: 30%;
+        top: 65%;
+    }
+
     .form-registro {
         position: absolute;
         top: 100%;
@@ -107,6 +115,7 @@
     }
     
     .footer {
+        position: absolute;
         width: 100%;
         height: 30%;
     }
@@ -130,7 +139,6 @@
     }
     .fotomail{
         width: 20%;
-        
     }
     .fotoubi{
         width: 20%;
@@ -160,11 +168,15 @@
     grid-template-columns: 1fr 1fr;
 }
     .footer2 {
-    position: absolute;
+    position: relative;
     top: 100%;
 }
     .pagos {
     display: flex;
     flex-direction: column;
+}
+    .footer4 {
+    position: absolute;
+    top: 100%;
 }
 }

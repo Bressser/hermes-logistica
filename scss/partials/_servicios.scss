@@ -5,6 +5,14 @@ p {
     left: 10%;
 }
 
+.servicio-img2 {
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
 .iconserv {
     width: 60px;
     display: block;
@@ -28,4 +36,22 @@ p {
     display: inline;
     top: -25px;
     left: 30%;
+}
+
+.serv-logistica {
+    display: grid;
+    margin: 1rem;
+    padding: 1rem;
+        h1 {
+            text-align: center;
+            color: #39b54a;
+            font-family: "Raleway";
+            text-decoration: underline;
+        }
+        h2 {
+            font-family: "Raleway";
+        }
+        h3 {
+            font-family: "Raleway"
+        }
 }

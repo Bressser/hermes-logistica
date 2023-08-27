@@ -71,6 +71,18 @@ a {
   color: white;
 }
 
+.footer4 {
+  background-color: #39b54a;
+  position: absolute;
+  top: 125%;
+}
+.footer4 li a {
+  padding: 2rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
 .foto-footer {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -294,6 +306,14 @@ p {
   left: 10%;
 }
 
+.servicio-img2 {
+  width: 35%;
+  height: 35%;
+  position: absolute;
+  left: 30%;
+  top: 60%;
+}
+
 .iconserv {
   width: 60px;
   display: block;
@@ -317,6 +337,24 @@ p {
   display: inline;
   top: -25px;
   left: 30%;
+}
+
+.serv-logistica {
+  display: grid;
+  margin: 1rem;
+  padding: 1rem;
+}
+.serv-logistica h1 {
+  text-align: center;
+  color: #39b54a;
+  font-family: "Raleway";
+  text-decoration: underline;
+}
+.serv-logistica h2 {
+  font-family: "Raleway";
+}
+.serv-logistica h3 {
+  font-family: "Raleway";
 }
 
 * {
@@ -478,6 +516,13 @@ p {
     left: 25%;
     top: 50%;
   }
+  .servicio-img2 {
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    left: 30%;
+    top: 65%;
+  }
   .form-registro {
     position: absolute;
     top: 100%;
@@ -487,6 +532,7 @@ p {
     border-radius: 3%;
   }
   .footer {
+    position: absolute;
     width: 100%;
     height: 30%;
   }
@@ -534,11 +580,15 @@ p {
     grid-template-columns: 1fr 1fr;
   }
   .footer2 {
-    position: absolute;
+    position: relative;
     top: 100%;
   }
   .pagos {
     display: flex;
     flex-direction: column;
+  }
+  .footer4 {
+    position: absolute;
+    top: 100%;
   }
 }/*# sourceMappingURL=main.css.map */
